@@ -16,7 +16,6 @@
         <p><strong>We are sorry this book is not available at this moment. Check back again soon!</strong></p>
       {% elif book.status == 'available' %}
           <p><strong>Stock:</strong> {{ book.stock }}</p>
-          <p><strong>Price:</strong> ${{ book.price }}</p>
           <form action="{% url 'cart:cart_add' book.id %}" method="post">
           {{ cart_book_form }}
           {% csrf_token %}
