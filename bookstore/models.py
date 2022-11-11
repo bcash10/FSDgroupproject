@@ -27,6 +27,7 @@ class Book(models.Model):
     isbn = models.CharField('ISBN', max_length=13, unique=True,
                              help_text='13 Character <a href="https://www.isbn-international.org/content/what-isbn">ISBN number</a>')
     genre = models.ForeignKey('Genre', on_delete=models.SET_NULL, null=True)
+    price = models.DecimalField(max_digits=10, decimal_places=2)
     stock = models.IntegerField()
     status = models.CharField(max_length=200)
 
@@ -44,6 +45,7 @@ class Book(models.Model):
 class Author(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
+    photo = models.ImageField(default='default_author.jpg', upload_to="author_pics")
     bio = models.TextField()
 
     class Meta:

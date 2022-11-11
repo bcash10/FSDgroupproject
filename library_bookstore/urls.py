@@ -1,4 +1,4 @@
-"""mfl_bookstore URL Configuration
+"""library_bookstore URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
@@ -31,7 +31,7 @@ urlpatterns = [
     path('password-reset-confirm/<uidb64>/<token>', auth_views.PasswordResetConfirmView.as_view(template_name='users/password_reset_confirm.html'), name='password_reset_confirm'),
     path('password-reset-complete/', auth_views.PasswordResetCompleteView.as_view(template_name='users/password_reset_complete.html'), name='password_reset_complete'),
 
-    path('', include('mfl.urls')),
+    path('', include('library.urls')),
     path('', include('bookstore.urls')),
     path('', include('cart.urls', namespace='cart')),
     path('', include('orders.urls', namespace='orders')),

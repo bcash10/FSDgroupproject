@@ -1,5 +1,5 @@
 """
-WSGI config for mfl_bookstore project.
+WSGI config for library_bookstore project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mfl_bookstore.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'library_bookstore.settings')
 
 application = get_wsgi_application()

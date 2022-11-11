@@ -6,11 +6,11 @@ from .models import Post
 
 
 def home(request):
-    return render(request, 'mfl/home.html')
+    return render(request, 'library/home.html')
 
 
 def mylists(request):
     context = {
         'lists': Post.objects.all()
     }
-    return render(request, 'mfl/mylists.html', context)
+    return render(request, 'library/mylists.html', context)
