@@ -4,7 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="deleted pic spacers" />
+    <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="take out test fold">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/migrations/0002_auto_20220419_2243.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/migrations/0003_auto_20220421_0435.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/migrations/0004_auto_20220421_0445.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/migrations/0002_auto_20220323_1743.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl_bookstore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl_bookstore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl_bookstore/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/templates/payment/canceled.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/templates/payment/done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/templates/payment/process.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -239,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668099916097</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="take out test fold">
+      <created>1668100138926</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668100138926</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +298,8 @@
     <MESSAGE value="push" />
     <MESSAGE value="created book list page--no function yet" />
     <MESSAGE value="deleted pic spacers" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted pic spacers" />
+    <MESSAGE value="take out test fold" />
+    <option name="LAST_COMMIT_MESSAGE" value="take out test fold" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProjectTeam$.coverage" NAME=" Coverage Results" MODIFIED="1652330022277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />

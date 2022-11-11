@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'bookstore.apps.BookstoreConfig',
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
-    'payment.apps.PaymentConfig',
     'crispy_forms',
     'bootstrap5',
 ]
