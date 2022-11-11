@@ -11,8 +11,13 @@ body {
     font-family:helvetica, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5{
   color: Yellow;
+    font-family: 'ui-rounded', sans-serif; font-weight:normal; font-size:23px;
+}
+
+h6{
+    color: Black;
     font-family: 'ui-rounded', sans-serif; font-weight:normal; font-size:23px;
 }
 
